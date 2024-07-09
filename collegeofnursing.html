@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College of Nursing</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Cool font example */
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #32cd32; /* Green header */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #222; /* Dark gray content area */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4caf50; /* Darker green button */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049; /* Lighter green on hover */
+        }
+        .announcement {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #444; /* Dark gray announcement board */
+            border: 1px solid #888; /* Light gray border */
+            border-radius: 5px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #fff; /* White text for links */
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px; /* Larger font size for contact links */
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .feedback-form {
+            margin-top: 20px;
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .feedback-form textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            resize: vertical;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .feedback-form input[type="submit"] {
+            background-color: #4caf50; /* Darker green button */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form input[type="submit"]:hover {
+            background-color: #45a049; /* Lighter green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the College of Nursing</h1>
+    </div>
+
+    <div class="content">
+        <h2>Announcements</h2>
+        <div class="announcement">
+            <h3>Important Announcement</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero sit amet ante.</p>
+        </div>
+        <div class="announcement">
+            <h3>Upcoming Event</h3>
+            <p>Etiam nec erat a nisi aliquet molestie eu in lorem. Nulla auctor accumsan ex a laoreet.</p>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>College of Nursing</h2>
+        <p>Welcome to the official website of the College of Nursing. Here you will find resources, announcements, and more.</p>
+    </div>
+
+    <!-- Financial Updates -->
+    <div class="content">
+        <h2>About</h2>
+        <p>File links for updates on contributions, expenses, receipts, live financial report, and news updates.</p>
+        <ul>
+            <li><a href="https://docs.google.com/document/d/your-contributions-id/edit" target="_blank">Contributions</a></li>
+            <li><a href="https://sheets.google.com/spreadsheets/d/your-expenses-id/edit" target="_blank">Expenses</a></li>
+            <li><a href="https://drive.google.com/file/d/your-receipts-id/view" target="_blank">Receipts</a></li>
+            <li><a href="https://slides.google.com/presentation/d/your-financial-report-id/edit" target="_blank">Live Financial Report</a></li>
+            <li><a href="https://forms.google.com/forms/d/your-news-id/edit" target="_blank">News Updates</a></li>
+        </ul>
+    </div>
+
+    <!-- Dashboard with Google Docs Links -->
+    <div class="content">
+        <h2>Dashboard</h2>
+        <ul>
+            <li><a href="https://docs.google.com/document/d/your-bsn1-id/edit" target="_blank">BSN1</a></li>
+            <li><a href="https://docs.google.com/document/d/your-bsn2-id/edit" target="_blank">BSN2</a></li>
+            <li><a href="https://docs.google.com/document/d/your-bsn3-id/edit" target="_blank">BSN3</a></li>
+            <li><a href="https://docs.google.com/document/d/your-bsn4-id/edit" target="_blank">BSN4</a></li>
+        </ul>
+    </div>
+
+    <!-- Photo Album -->
+    <div class="content photo-album">
+        <h2>Photo Album</h2>
+        <div class="photo">
+            <img src="photo1.jpg" alt="Photo 1">
+            <p>Caption for Photo 1</p>
+        </div>
+        <div class="photo">
+            <img src="photo2.jpg" alt="Photo 2">
+            <p>Caption for Photo 2</p>
+        </div>
+        <div class="photo">
+            <img src="photo3.jpg" alt="Photo 3">
+            <p>Caption for Photo 3</p>
+        </div>
+        <div class="photo">
+            <img src="photo4.jpg" alt="Photo 4">
+            <p>Caption for Photo 4</p>
+        </div>
+        <div class="photo">
+            <img src="photo5.jpg" alt="Photo 5">
+            <p>Caption for Photo 5</p>
+        </div>
+    </div>
+
+    <!-- Feedback Form -->
+    <div class="content feedback-form">
+        <h2>Feedback</h2>
+        <form action="mailto:feedback@collegeofnursing.com" method="POST" enctype="text/plain">
+            <label for="feedback">Leave your feedback or comment:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit" class="button">
+        </form>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="content contact-info">
+        <h2>Contact Us</h2>
+        <p>For more information, reach out to us:</p>
+        <a href="mailto:info@collegeofnursing.com">Email</a>
+        <a href="https://www.facebook.com/collegeofnursing">Facebook</a>
+        <a href="https://www.instagram.com/collegeofnursing">Instagram</a>
+        <!-- Add more contact links as needed -->
+    </div>
+
+</body>
+</html>
